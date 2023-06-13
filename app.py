@@ -22,7 +22,7 @@ with open('tokenizer.pickle', 'rb') as handle:
 
 # Load label encoder object
 with open('label_encoder.pickle', 'rb') as enc:
-    lbl_encoder = pickle.load(enc)
+    tag_encoder = pickle.load(enc)
 
 # Parameters
 max_len = 25
